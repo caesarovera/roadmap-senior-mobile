@@ -64,6 +64,10 @@ Sebagian besar bug dan masalah performa di React Native **bukan** masalah React 
 
 🎯 **Tujuan:** menguasai async karena hampir semua hal di mobile itu async: API, storage, kamera, lokasi.
 
+![Event loop](../assets/diagram/event-loop.svg)
+
+*Diagram: urutan eksekusi sinkron → microtask → macrotask. Latihan interaktifnya ada di js-ts-playground Minggu 3.*
+
 📚 **Materi**
 - **Event loop**: call stack, task queue (macrotask), microtask queue
 - Callback → Promise → `async`/`await`

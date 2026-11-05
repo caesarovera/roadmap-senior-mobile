@@ -25,6 +25,8 @@ Fase ini dibagi menjadi **6 blok**:
 
 🎯 **Tujuan:** punya model mental yang benar untuk mendiagnosis performa.
 
+![Thread React Native](../assets/diagram/rn-arsitektur-thread.svg)
+
 📚 **Materi**
 - **Thread** di RN: JS thread, UI (main) thread, dan background thread
 - Kenapa UI "patah" (*jank*): frame 60/120 fps berarti ~16/8 ms per frame. Kalau JS thread sibuk, interaksi dan animasi yang bergantung pada JS tersendat.
@@ -125,6 +127,11 @@ Audit aksesibilitas aplikasi absensi dengan TalkBack. Perbaiki semua temuan.
 > Ini salah satu topik **pembeda senior yang paling kuat**. Aplikasi absensi di lapangan sering kehilangan sinyal.
 
 ## Minggu 8 — Desain Sistem Offline
+
+![Offline outbox](../assets/diagram/offline-outbox.svg)
+
+*Target akhir Blok C: outbox di HP + idempotency di server.*
+
 
 📚 **Materi**
 - **Offline-first**: UI selalu membaca dari **database lokal**; sinkronisasi dengan server berjalan di belakang

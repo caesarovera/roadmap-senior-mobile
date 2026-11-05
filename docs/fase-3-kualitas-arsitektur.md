@@ -14,6 +14,8 @@ Mengubah aplikasi yang "jalan" menjadi aplikasi yang **bisa dirawat tim, diuji o
 
 🎯 **Tujuan:** kode yang mudah dicari, diubah, dan diuji.
 
+![Arsitektur mobile berlapis](../assets/diagram/mobile-layer.svg)
+
 📚 **Materi**
 - **Feature-based structure**: kode dikelompokkan per fitur (`features/attendance`, `features/leave`), bukan per jenis file (`components/`, `hooks/`)
 - Pemisahan layer:
@@ -42,6 +44,10 @@ Mengubah aplikasi yang "jalan" menjadi aplikasi yang **bisa dirawat tim, diuji o
 ## Minggu 3 — Unit Test dengan Jest
 
 🎯 **Tujuan:** logika penting terlindungi oleh test.
+
+![Piramida testing](../assets/diagram/piramida-testing.svg)
+
+*Peta testing untuk Minggu 3–6.*
 
 📚 **Materi**
 - Setup `jest-expo` (preset Jest untuk Expo)
@@ -186,6 +192,10 @@ Siapkan juga 3 environment di backend: lokal, staging (VPS murah atau layanan Pa
 ## Minggu 9 — CI dengan GitHub Actions
 
 🎯 **Tujuan:** setiap Pull Request otomatis dicek.
+
+![Alur rilis CI/CD](../assets/diagram/alur-rilis-cicd.svg)
+
+*Gambaran Minggu 8–12: dari PR sampai ke tangan pengguna.*
 
 📚 **Materi**
 - Workflow di `.github/workflows/`

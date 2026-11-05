@@ -6,6 +6,10 @@
 
 ## 1. ERD
 
+![ERD absensi](../assets/diagram/erd-absensi.svg)
+
+*Versi teks (Mermaid) di bawah ini bisa diedit langsung.*
+
 ```mermaid
 erDiagram
     OFFICES ||--o{ USERS : "memiliki"

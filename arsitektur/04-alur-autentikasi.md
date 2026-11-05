@@ -6,6 +6,11 @@
 
 ## 1. Gambaran Umum
 
+![Alur autentikasi](../assets/diagram/alur-autentikasi.svg)
+
+<details>
+<summary>Versi teks (Mermaid)</summary>
+
 ```mermaid
 sequenceDiagram
     participant U as User
@@ -39,6 +44,8 @@ sequenceDiagram
     App->>API: POST /devices { push_token } (daftarkan notifikasi)
     App->>App: status = authenticated → Beranda
 ```
+
+</details>
 
 ---
 

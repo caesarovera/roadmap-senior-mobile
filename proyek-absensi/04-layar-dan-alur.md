@@ -168,6 +168,10 @@ Avatar, nama, kode karyawan, jabatan, kantor, shift · Menu: Ganti Password, Pen
 
 ## 3. Alur Kritis: Absen Masuk (Detail)
 
+![Alur check-in end-to-end](../assets/diagram/alur-checkin.svg)
+
+*Sequence diagram lintas HP dan server. Flowchart di bawah menunjukkan percabangan di sisi aplikasi.*
+
 ```mermaid
 flowchart TD
     A[Tap Absen Masuk] --> B{Izin lokasi?}

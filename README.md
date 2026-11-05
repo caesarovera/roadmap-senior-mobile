@@ -20,6 +20,8 @@ Target: dalam **±18 bulan** belajar terstruktur (10–15 jam/minggu), punya ski
 
 ## 🗺️ Peta Fase
 
+![Peta perjalanan 18 bulan](assets/diagram/roadmap-timeline.svg)
+
 | Fase | Topik | Durasi | Hasil Akhir |
 |---|---|---|---|
 | [**Fase 0**](docs/fase-0-javascript-typescript.md) | JavaScript mendalam, TypeScript, React | 8 minggu | Paham *kenapa* kode React berperilaku begitu |
@@ -43,26 +45,42 @@ roadmap-senior-mobile/
 │
 ├── docs/                         ← Materi per fase, dirinci per minggu
 │   ├── 00-cara-belajar.md
-│   ├── fase-0-javascript-typescript.md
-│   ├── fase-1-react-native-dasar.md
-│   ├── fase-2-aplikasi-nyata-laravel.md
-│   ├── fase-3-kualitas-arsitektur.md
-│   ├── fase-4-topik-senior.md
-│   └── berkelanjutan.md
+│   ├── fase-0 … fase-4
+│   ├── berkelanjutan.md
+│   └── peta-visual.md            ← 🖼️ Galeri semua diagram
 │
 ├── arsitektur/                   ← Blueprint proyek React Native + Laravel
+│   ├── 00-dokumen-arsitektur.md  ← ⭐ Mulai dari sini: arsitektur lengkap bergambar
 │   ├── 01-struktur-react-native.md
 │   ├── 02-struktur-laravel-api.md
 │   ├── 03-konvensi-api.md
 │   └── 04-alur-autentikasi.md
 │
-└── proyek-absensi/               ← Desain lengkap proyek portofolio utama
-    ├── 01-prd.md
-    ├── 02-database.md
-    ├── 03-api-spec.md
-    ├── 04-layar-dan-alur.md
-    └── 05-milestone.md
+├── proyek-absensi/               ← Desain lengkap proyek portofolio utama
+│   ├── 01-prd.md · 02-database.md · 03-api-spec.md
+│   └── 04-layar-dan-alur.md · 05-milestone.md
+│
+├── pendukung/                    ← Referensi cepat
+│   ├── glosarium.md · faq-troubleshooting.md
+│   ├── cheatsheet-*.md           ← JS/TS · React Native & Expo · Laravel API
+│   ├── keputusan-teknologi.md · persiapan-interview.md
+│   └── template/                 ← ADR · RFC · post-mortem · PR · checklist rilis · README portofolio
+│
+├── assets/diagram/               ← 15 diagram SVG
+└── tools/diagram/                ← Script Python pembuat diagram
 ```
+
+### 🧭 Mulai dari mana?
+
+| Saya ingin… | Buka |
+|---|---|
+| Mulai belajar sekarang | [Cara Belajar](docs/00-cara-belajar.md), lalu [Fase 0](docs/fase-0-javascript-typescript.md) dan repo latihan [js-ts-playground](https://github.com/caesarovera/js-ts-playground) |
+| Memahami gambaran besar sistem yang akan dibangun | [Dokumen Arsitektur](arsitektur/00-dokumen-arsitektur.md) |
+| Melihat semua diagram sekaligus | [Peta Visual](docs/peta-visual.md) |
+| Mencari arti sebuah istilah | [Glosarium](pendukung/glosarium.md) |
+| Mengatasi error | [FAQ & Troubleshooting](pendukung/faq-troubleshooting.md) |
+| Mencari sintaks / perintah dengan cepat | [Cheat sheet](pendukung/README.md#-referensi-cepat) |
+| Bersiap untuk interview | [Persiapan Interview](pendukung/persiapan-interview.md) |
 
 ---
 

@@ -11,6 +11,10 @@ Menghubungkan aplikasi mobile ke backend Laravel **dengan cara profesional**: au
 > 📌 Sebelum mulai, baca blueprint arsitektur:
 > [Struktur RN](../arsitektur/01-struktur-react-native.md) · [Struktur Laravel](../arsitektur/02-struktur-laravel-api.md) · [Konvensi API](../arsitektur/03-konvensi-api.md) · [Alur Auth](../arsitektur/04-alur-autentikasi.md)
 
+![Gambaran sistem](../assets/diagram/sistem-gambaran.svg)
+
+*Gambaran sistem yang akan Anda bangun di fase ini. Penjelasan lengkap: arsitektur/00-dokumen-arsitektur.md*
+
 ---
 
 ## Minggu 1 — Fondasi API Laravel untuk Mobile
@@ -43,6 +47,8 @@ Menghubungkan aplikasi mobile ke backend Laravel **dengan cara profesional**: au
 
 🎯 **Tujuan:** login yang aman dan tahan banting di sisi mobile.
 
+![Alur autentikasi](../assets/diagram/alur-autentikasi.svg)
+
 📚 **Materi**
 - **Sanctum token** (bukan cookie/session, karena ini aplikasi mobile)
 - Endpoint: `POST /auth/login` (dengan `device_name`), `POST /auth/logout`, `GET /auth/me`
@@ -67,6 +73,8 @@ Menghubungkan aplikasi mobile ke backend Laravel **dengan cara profesional**: au
 ## Minggu 3 — TanStack Query: Dasar
 
 🎯 **Tujuan:** berhenti menulis `useEffect` + `useState` untuk fetch data.
+
+![Siklus TanStack Query](../assets/diagram/siklus-tanstack-query.svg)
 
 📚 **Materi**
 - Konsep **server state** vs **client state**
@@ -153,6 +161,10 @@ Menghubungkan aplikasi mobile ke backend Laravel **dengan cara profesional**: au
 
 🎯 **Tujuan:** Laravel bisa mengirim notifikasi ke HP user.
 
+![Push notification vs realtime](../assets/diagram/notifikasi-realtime.svg)
+
+*Minggu 7 (push) dan Minggu 8 (realtime) bekerja berdampingan.*
+
 📚 **Materi**
 - `expo-notifications`: minta izin, ambil **Expo Push Token** (atau token FCM/APNs langsung)
 - Simpan token ke Laravel: `POST /api/v1/devices` (tabel `device_tokens`, satu user bisa punya banyak device)
@@ -200,6 +212,10 @@ Menghubungkan aplikasi mobile ke backend Laravel **dengan cara profesional**: au
 ## Minggu 9–12 — 🏁 Proyek Utama: Aplikasi Absensi v1
 
 Ikuti rencana sprint di [`proyek-absensi/05-milestone.md`](../proyek-absensi/05-milestone.md):
+
+![Alur check-in](../assets/diagram/alur-checkin.svg)
+
+*Alur inti yang dibangun di Sprint 2.*
 
 | Minggu | Sprint | Fokus |
 |---|---|---|

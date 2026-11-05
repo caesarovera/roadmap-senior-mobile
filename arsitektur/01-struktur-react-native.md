@@ -26,6 +26,8 @@ npm install @tanstack/react-query zustand axios zod react-hook-form @hookform/re
 
 ## 2. Struktur Folder (Feature-Based)
 
+![Arsitektur mobile berlapis](../assets/diagram/mobile-layer.svg)
+
 ```
 absensi-mobile/
 ├── app/                              ← HANYA routing (Expo Router). File di sini tipis.

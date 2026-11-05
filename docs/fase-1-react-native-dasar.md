@@ -16,6 +16,10 @@ Membangun aplikasi mobile yang **terasa native**: layout benar di berbagai ukura
 
 🎯 **Tujuan:** proyek pertama berjalan di emulator **dan** HP asli, dan Anda paham apa yang terjadi di baliknya.
 
+![Cara kerja React Native](../assets/diagram/rn-arsitektur-thread.svg)
+
+*Gambaran awal: kode Anda di JS thread, layar digambar UI thread. Didalami di Fase 4.*
+
 📚 **Materi**
 - Membuat proyek: `npx create-expo-app@latest rn-playground`
 - Struktur proyek Expo: `app/`, `app.json`, `package.json`, `assets/`
@@ -160,6 +164,10 @@ Form **Tambah Transaksi**: jenis (masuk/keluar), jumlah (format `Rp 1.500.000`),
 ## Minggu 7 — Penyimpanan Lokal
 
 🎯 **Tujuan:** memilih penyimpanan yang tepat untuk tiap jenis data.
+
+![Peta state](../assets/diagram/peta-state.svg)
+
+*Pohon keputusan: data ini disimpan di mana?*
 
 📚 **Materi**
 

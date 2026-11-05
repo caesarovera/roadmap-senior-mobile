@@ -84,6 +84,8 @@ app/
 ```
 
 **Alur satu request:**
+
+![Perjalanan request Laravel](../assets/diagram/laravel-request.svg)
 ```
 Route → Middleware (auth:sanctum, throttle) → FormRequest (validasi + authorize)
       → Controller (tipis) → Action (logika bisnis) → Model
