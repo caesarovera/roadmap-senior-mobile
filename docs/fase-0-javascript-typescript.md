@@ -8,6 +8,8 @@ Sebagian besar bug dan masalah performa di React Native **bukan** masalah React 
 
 **Hasil akhir fase:** Anda bisa menjelaskan *kenapa* kode JS/React berperilaku tertentu, bukan hanya *bahwa* kode itu bekerja.
 
+> 🧪 **Latihan dengan test otomatis:** semua latihan Minggu 1–8 tersedia di repo [**js-ts-playground**](https://github.com/caesarovera/js-ts-playground). Clone, jalankan `npm run m1`, lalu buat semua test menjadi hijau.
+
 ---
 
 ## Minggu 1 — Fondasi JavaScript: Tipe, Scope, Closure
